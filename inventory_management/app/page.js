@@ -23,7 +23,7 @@ export default function LandingPage() {
         Welcome to the Inventory Management System
       </Typography>
       <Button variant="contained" onClick={goToInventory}>
-        Go to Inventory
+        Sign In 
       </Button>
     </Box>
   )

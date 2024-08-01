@@ -9,7 +9,7 @@ import { collection, deleteDoc,doc,setDoc,getDocs, query,getDoc} from "firebase/
 
 export default function Home() {
   const [inventory, setInventory] = useState([])
-  const [open , setOpen] = useState(true)
+  const [open , setOpen] = useState(false)
   const [itemName , setItemName] = useState('')
 
   const updateInventory = async () => {
